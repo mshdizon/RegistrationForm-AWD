@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for the login and sign-up buttons */
+  .btn-primary {
+    width: 100%;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Additional style for the sign-up data display page */
+  #userDataDisplay {
+    margin-top: 20px;
+  }
+  
+  #userDataDisplay p {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the message when no sign up data is available */
+  .no-data-message {
+    color: #dc3545; /* Bootstrap's danger color */
+  }
+  
